@@ -15,7 +15,7 @@ venv/
 # Ignore MacOS files
 .DS_Store
 
-# Ignore audio clips directory (if not pushing audio files)
+# Ignore audio clips directory 
 audio_clips/
 
 # Ignore Jupyter Notebook checkpoints
