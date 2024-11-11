@@ -9,7 +9,7 @@ audio_folder = '/Users/rokos-basilisk/desktop/Ava/audio_clips'
 # Get a list of audio files in the folder
 audio_files = [f for f in os.listdir(audio_folder) if f.endswith('.wav')] 
 
-for filename in audio_files[:3]:
+for filename in audio_files[:20]:
     audio_path = os.path.join(audio_folder, filename)
     y, sr = librosa.load(audio_path, sr=None)
     # Compute spectrogram
