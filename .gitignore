@@ -16,7 +16,8 @@ venv/
 .DS_Store
 
 # Ignore audio clips directory 
-audio_clips/
+#audio_clips/
+__pycache__/
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
