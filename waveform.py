@@ -3,7 +3,6 @@ import librosa
 import librosa.display
 import matplotlib.pyplot as plt
 
-# Path to your audio clips
 audio_folder = 'audio_clips'
 
 # Get a list of audio files

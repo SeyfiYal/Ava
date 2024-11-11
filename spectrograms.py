@@ -7,9 +7,7 @@ import librosa.display
 
 audio_folder = '/Users/rokos-basilisk/desktop/Ava/audio_clips' 
 # Get a list of audio files in the folder
-audio_files = [f for f in os.listdir(audio_folder) if f.endswith('.wav')]  # Adjust the extension if necessary
-
-
+audio_files = [f for f in os.listdir(audio_folder) if f.endswith('.wav')] 
 
 for filename in audio_files[:3]:
     audio_path = os.path.join(audio_folder, filename)
