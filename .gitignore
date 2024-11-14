@@ -18,6 +18,7 @@ venv/
 # Ignore audio clips directory 
 #audio_clips/
 __pycache__/
+Real-Time-Voice-Cloning/
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
