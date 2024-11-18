@@ -1,8 +1,8 @@
 
 
-----Making my own model----
+##Making my own model
 
-TO DO:
+#TO DO:
 
   Soon...
 
