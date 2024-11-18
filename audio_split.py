@@ -2,10 +2,10 @@ import os
 import whisper
 from pydub import AudioSegment
 
-# Specify the path to your audio file
+# PATH
 audio_file = "/Users/rokos-basilisk/desktop/AVA-Audio-Filesa/Ava-Data.m4a" 
 
-# Load the Whisper model -- Tiny,Small,Large-- Depends I fast you wanna go
+# Load the Whisper model -- Tiny,Small,Large-- Depends How fast you wanna go
 model = whisper.load_model("base")
 
 # Transcribe the audio file with timestamps
